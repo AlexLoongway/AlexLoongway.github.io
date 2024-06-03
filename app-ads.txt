@@ -35,6 +35,9 @@ zmaticoo.com, 5135655, RESELLER
 # Admob
 # google.com, pub-8029764834664975, DIRECT, f08c47fec0942fa0
 
+# Facebook
+facebook.com, 105141872347311, DIRECT, c3e20eee3f780d68
+
 # IronSource
 ironsrc.com, 286605, Direct
 adbility-media.com, 187, RESELLER
