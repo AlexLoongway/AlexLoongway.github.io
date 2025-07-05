@@ -1,26 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=unitydl://standclicker" />
+    <!-- <meta http-equiv="refresh" content="0; url=unitydl://standclicker" /> -->
     <title>Activate coupon</title>
-    <script src="jquery-3.7.1.min.js"></script>
-</head>
-<body>
-    <p><a href="unitydl://standclicker">Redirect</a></p>
+    <script src="js/jquery-3.7.1.min.js"></script>
 
-    <script>
-        var toggle = true;
-
-        $(window).bind('beforeunload', () => {
-            toggle = false;
-        });
-
-        if(toggle) {
-            setTimeout(() => {
-                window.location.href = "https://play.google.com/store/apps/details?id=com.loongway.standclicker";
-            }, 2000);
+    <style>
+        #redirect_label {
+            text-align: center;
+            font-size: 24px;
         }
-    </script>
+    </style>
+</head>
+
+<body>
+    <!-- <p id="redirect_label"><a id="redirect_link" href="unitydl://standclicker">Redirect</a></p> -->
+    <script src="js/index.js"></script>
 </body>
+
 </html>
